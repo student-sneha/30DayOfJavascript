@@ -125,3 +125,39 @@ ul li.checked::before {
     font-size: 1.3rem;
     transition: 0.2s ease-in-out;
 }
+/* responsive  */
+@media (max-width: 580px) and (max-width: 470px) {
+  .todo-app {
+    margin: 25px;
+    width: 90%;
+  }
+  .todo-app input {
+    width: 50%;
+  }
+}
+@media (max-width: 460px) {
+  .todo-app {
+    width: 90%;
+    padding: 20px 0px 70px;
+    margin: 25px;
+  }
+  .todo-app input {
+    width: 50%;
+  }
+  .todo-app button {
+    padding: 15px 24px;
+  }
+  ul li {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .btn {
+    width: 10px;
+    height: 10px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
